@@ -8,7 +8,7 @@ from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAOUkAsZoohJKMiwNXYLhmp0g1cqc2FxvQ"
+
 
 pdf_path = "rbidocs.pdf"
 

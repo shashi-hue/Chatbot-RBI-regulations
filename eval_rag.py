@@ -5,11 +5,11 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langsmith import Client
 
 
-os.environ["LANGCHAIN_API_KEY"] = "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"
+
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_TRACING"] = "true"
 os.environ["LANGSMITH_ENDPOINT"]="https://api.smith.langchain.com"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAOUkAsZoohJKMiwNXYLhmp0g1cqc2FxvQ"
+
 client = Client()
 
 eval_data = [
